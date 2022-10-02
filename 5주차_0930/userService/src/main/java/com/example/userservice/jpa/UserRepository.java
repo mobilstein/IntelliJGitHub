@@ -1,4 +1,11 @@
 package com.example.userservice.jpa;
 
-public interface UserRepository {
+import lombok.Data;
+import org.springframework.data.repository.CrudRepository;
+
+import javax.persistence.*;
+
+public interface UserRepository extends CrudRepository<UserEntity, Long> {
+
+
 }
