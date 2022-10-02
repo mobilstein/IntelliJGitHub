@@ -4,6 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/5주차_0930/DiscoverySerivce/DiscoverySerivce.iml" filepath="$PROJECT_DIR$/5주차_0930/DiscoverySerivce/DiscoverySerivce.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/IntelliJGitHub.iml" filepath="$PROJECT_DIR$/.idea/IntelliJGitHub.iml" />
+      <module fileurl="file://$PROJECT_DIR$/5주차_0930/userService/userService.iml" filepath="$PROJECT_DIR$/5주차_0930/userService/userService.iml" />
     </modules>
   </component>
 </project>
