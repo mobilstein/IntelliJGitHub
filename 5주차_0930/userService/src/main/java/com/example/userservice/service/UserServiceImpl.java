@@ -30,7 +30,6 @@ public class UserServiceImpl implements UserService {
     @Override
     public UserDto createUser(UserDto userDto) {
         userDto.setUserId(UUID.randomUUID().toString());
-
         ModelMapper mapper = new ModelMapper();
         // 설정 정보가 딱 맞아떨어져야지 변환 가능
         mapper.getConfiguration().setMatchingStrategy(MatchingStrategies.STRICT);

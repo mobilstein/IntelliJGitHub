@@ -8,6 +8,7 @@
         <outputRelativeToContentRoot value="true" />
         <module name="DiscoverySerivce" />
         <module name="userService" />
+        <module name="GatewayService" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
