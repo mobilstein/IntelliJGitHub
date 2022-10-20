@@ -20,6 +20,7 @@ greeting:
 
 eureka:
   instance:
+    hostname: localhost
     instance-id: ${spring.application.name}:${spring.application.instance_id:${random.value}}
   client:
     register-with-eureka: true
