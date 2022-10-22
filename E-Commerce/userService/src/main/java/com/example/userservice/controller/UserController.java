@@ -19,7 +19,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 @RestController
-@RequestMapping("/user-service/")
+@RequestMapping("/user-service")
 public class UserController {
 
     private Environment env;
@@ -35,6 +35,7 @@ public class UserController {
     public String status(){
      // return String.format("It's Working in User Service on Port %s", request.getServerPort());
         return String.format("It's Working in User Service on Port %s", env.getProperty("local.server.port"));
+
     }
 
     @GetMapping("/welcome")
